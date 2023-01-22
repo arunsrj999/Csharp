@@ -1,0 +1,339 @@
+2022-07-18T11:36:30.676Z - error: [main] Error looking for toast activator CLSID in shortcut C:\Users\emine\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\GitHub Desktop.lnk
+Error: Failed to read shortcut link
+    at X (C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\lib\find-toast-activator-clsid.ts:38:29)
+    at C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\lib\find-toast-activator-clsid.ts:26:33
+    at C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\notifications.ts:23:32
+    at C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\main.ts:709:55
+    at Object.<anonymous> (C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\main.ts:709:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-07-18T11:36:30.693Z - error: [main] Error looking for toast activator CLSID in shortcut C:\Users\emine\Desktop\GitHub Desktop.lnk
+Error: Failed to read shortcut link
+    at X (C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\lib\find-toast-activator-clsid.ts:38:29)
+    at C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\lib\find-toast-activator-clsid.ts:26:33
+    at C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\notifications.ts:23:32
+    at C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\main.ts:709:55
+    at Object.<anonymous> (C:\Users\emine\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\main.ts:709:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-07-18T11:36:30.693Z - error: [main] Toast activator CLSID not found in any of the shortucts. Falling back to known CLSIDs.
+2022-07-18T11:36:30.693Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-07-18T11:36:32.002Z - info: [main] Received possible protocol arguments: 2
+2022-07-18T11:36:32.020Z - error: [main] Malformed launch arguments received: C:\Users\emine\AppData\Local\GitHubDesktop\app-3.0.5\GitHubDesktop.exe,--squirrel-firstrun
+2022-07-18T11:36:32.020Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-07-18T11:36:32.795Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-07-18T11:36:33.116Z - info: [ui] launching: 3.0.5 (Windows 10.0.22000)
+2022-07-18T11:36:33.124Z - info: [ui] execPath: 'C:\Users\emine\AppData\Local\GitHubDesktop\app-3.0.5\GitHubDesktop.exe'
+2022-07-18T11:36:33.341Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-07-18T11:36:33.849Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-07-18T11:36:33.852Z - info: [ui] Opt in reported.
+2022-07-18T11:36:35.017Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.771s)
+2022-07-18T11:36:37.066Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2022-07-18T11:36:37.068Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-07-18T11:36:37.071Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=bb054868-9bd9-489f-97f1-fe396a8cad72
+2022-07-18T11:36:37.071Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2022-07-18T11:36:37.371Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-07-18T11:36:42.994Z - info: [main] Received possible protocol arguments: 4
+2022-07-18T11:36:42.998Z - info: [main] Processing protocol url
+2022-07-18T11:36:43.027Z - info: [ui] [Dispatcher] requesting authenticated user
+2022-07-18T11:36:43.037Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-07-18T11:36:43.967Z - info: [ui] [SignInStore] account resolved
+2022-07-18T11:36:43.968Z - info: [ui] [AppStore] adding account presianrusinov (presianrusinov) to store
+2022-07-18T11:36:43.971Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2022-07-18T11:36:44.051Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-07-18T11:36:44.069Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-07-18T11:36:44.330Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-07-18T11:36:44.415Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
+2022-07-18T11:38:15.976Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:38:16.217Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:38:21.070Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:38:21.248Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:38:22.163Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:38:22.307Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:38:23.153Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:38:23.356Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:38:24.169Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:38:24.320Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:38:25.234Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:38:25.385Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:38:48.279Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:38:48.439Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:38:50.000Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:38:50.165Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:38:50.962Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:38:51.129Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:40:36.153Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: git@github.com:presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:40:36.312Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- git@github.com:presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:40:37.801Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: git@github.com:presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:40:37.965Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- git@github.com:presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:40:38.627Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: git@github.com:presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:40:38.806Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- git@github.com:presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:40:39.772Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: git@github.com:presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:40:39.916Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- git@github.com:presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:41:03.589Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-07-18T11:41:04.296Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-07-18T11:41:04.298Z - info: [ui] [AppStore] found account: presianrusinov (presianrusinov)
+2022-07-18T11:41:04.529Z - info: [ui] launching: 3.0.5 (Windows 10.0.22000)
+2022-07-18T11:41:04.543Z - info: [ui] execPath: 'C:\Users\emine\AppData\Local\GitHubDesktop\app-3.0.5\GitHubDesktop.exe'
+2022-07-18T11:41:04.889Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
+2022-07-18T11:41:05.018Z - info: [ui] Stats reported.
+2022-07-18T11:41:55.133Z - error: [ui] createRepository: the directory at C:\Users\GitHub projects\Hello-HTML is not valid
+Error: EPERM: operation not permitted, mkdir 'C:\Users\GitHub projects\Hello-HTML'
+2022-07-18T11:45:07.664Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:45:07.802Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:45:09.377Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:45:09.530Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:45:18.293Z - info: [main] Received possible protocol arguments: 3
+2022-07-18T11:45:18.332Z - info: [main] Processing protocol url
+2022-07-18T11:45:18.332Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-07-18T11:45:18.972Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-07-18T11:45:18.973Z - info: [ui] [AppStore] found account: presianrusinov (presianrusinov)
+2022-07-18T11:45:19.197Z - info: [ui] launching: 3.0.5 (Windows 10.0.22000)
+2022-07-18T11:45:19.207Z - info: [ui] execPath: 'C:\Users\emine\AppData\Local\GitHubDesktop\app-3.0.5\GitHubDesktop.exe'
+2022-07-18T11:45:19.696Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
+2022-07-18T11:45:23.535Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:45:23.662Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:45:25.488Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:45:25.639Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:46:00.426Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-07-18T11:46:01.070Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-07-18T11:46:01.071Z - info: [ui] [AppStore] found account: presianrusinov (presianrusinov)
+2022-07-18T11:46:01.075Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
+2022-07-18T11:46:01.808Z - info: [ui] launching: 3.0.5 (Windows 10.0.22000)
+2022-07-18T11:46:01.811Z - info: [ui] execPath: 'C:\Users\emine\AppData\Local\GitHubDesktop\app-3.0.5\GitHubDesktop.exe'
+2022-07-18T11:46:14.576Z - warn: [ui] Failed trying to find Git on PATH
+Error: Command failed: C:\Windows\System32\where.exe git
+INFO: Could not find files for the given pattern(s).
+
+    at ChildProcess.exithandler (node:child_process:406:12)
+    at ChildProcess.emit (node:events:390:28)
+    at maybeClose (node:internal/child_process:1064:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)
+2022-07-18T11:46:18.003Z - info: [ui] [AppStore] removing account presianrusinov (presianrusinov) from store
+2022-07-18T11:46:18.046Z - info: [ui] Unubscribed 'presianrusinov' from Alive channel
+2022-07-18T11:46:21.581Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-07-18T11:46:21.583Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=5ddd3b7a-d7d3-4327-807d-69e75bc77a22
+2022-07-18T11:46:24.516Z - info: [main] Received possible protocol arguments: 4
+2022-07-18T11:46:24.524Z - info: [main] Processing protocol url
+2022-07-18T11:46:24.525Z - info: [ui] [Dispatcher] requesting authenticated user
+2022-07-18T11:46:25.601Z - info: [ui] [SignInStore] account resolved
+2022-07-18T11:46:25.602Z - info: [ui] [AppStore] adding account presianrusinov (presianrusinov) to store
+2022-07-18T11:46:26.119Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
+2022-07-18T11:46:40.247Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:46:40.372Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:47:09.693Z - info: [ui] [AppStore] removing account presianrusinov (presianrusinov) from store
+2022-07-18T11:47:09.699Z - info: [ui] Unubscribed 'presianrusinov' from Alive channel
+2022-07-18T11:48:08.430Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-07-18T11:48:08.431Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=e2bee9df-443d-4ffc-a3e9-1ca8eaa7d84d
+2022-07-18T11:48:35.005Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-07-18T11:48:35.022Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=7d14cbfd-69a8-4ede-ac39-60cfa36979d0
+2022-07-18T11:49:27.393Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-07-18T11:49:27.394Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=3d88c8ff-a049-4540-ba40-eccd363b4a38
+2022-07-18T11:49:31.172Z - info: [main] Received possible protocol arguments: 4
+2022-07-18T11:49:31.176Z - info: [main] Processing protocol url
+2022-07-18T11:49:31.246Z - info: [ui] [Dispatcher] requesting authenticated user
+2022-07-18T11:49:32.174Z - info: [ui] [SignInStore] account resolved
+2022-07-18T11:49:32.175Z - info: [ui] [AppStore] adding account presianrusinov (presianrusinov) to store
+2022-07-18T11:49:32.685Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
+2022-07-18T11:49:41.801Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:49:41.913Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:49:43.703Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:49:43.855Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:49:44.536Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:49:44.685Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:50:29.421Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:50:29.585Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:50:31.830Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:50:31.979Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:56:17.908Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-07-18T11:56:18.621Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-07-18T11:56:18.623Z - info: [ui] [AppStore] found account: presianrusinov (presianrusinov)
+2022-07-18T11:56:18.868Z - info: [ui] launching: 3.0.5 (Windows 10.0.22000)
+2022-07-18T11:56:18.882Z - info: [ui] execPath: 'C:\Users\emine\AppData\Local\GitHubDesktop\app-3.0.5\GitHubDesktop.exe'
+2022-07-18T11:56:19.219Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
+2022-07-18T11:56:30.068Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:56:30.199Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:56:31.840Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:56:31.990Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:56:32.658Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T11:56:32.804Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:56:40.899Z - info: [ui] [AppStore] removing account presianrusinov (presianrusinov) from store
+2022-07-18T11:56:40.907Z - info: [ui] Unubscribed 'presianrusinov' from Alive channel
+2022-07-18T11:56:45.342Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-07-18T11:56:45.343Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=40209cb7-9ab3-4c6d-8a31-baeb5da39938
+2022-07-18T11:56:47.978Z - info: [main] Received possible protocol arguments: 4
+2022-07-18T11:56:47.982Z - info: [main] Processing protocol url
+2022-07-18T11:56:48.016Z - info: [ui] [Dispatcher] requesting authenticated user
+2022-07-18T11:56:48.801Z - info: [ui] [SignInStore] account resolved
+2022-07-18T11:56:48.802Z - info: [ui] [AppStore] adding account presianrusinov (presianrusinov) to store
+2022-07-18T11:56:49.216Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
+2022-07-18T11:56:55.563Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/SoftUni-Exercise.git - presianrusinov (has token)
+2022-07-18T11:56:55.733Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/SoftUni-Exercise.git C:\Users\GitHub projects\SoftUni-Exercise` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\SoftUni-Exercise': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T11:56:57.580Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/SoftUni-Exercise.git - presianrusinov (has token)
+2022-07-18T11:56:57.716Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/SoftUni-Exercise.git C:\Users\GitHub projects\SoftUni-Exercise` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\SoftUni-Exercise': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T12:01:45.338Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T12:01:45.486Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T12:02:19.773Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T12:02:19.935Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T12:02:21.535Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T12:02:21.688Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T12:06:06.484Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-07-18T12:06:07.151Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-07-18T12:06:07.152Z - info: [ui] [AppStore] found account: presianrusinov (presianrusinov)
+2022-07-18T12:06:07.421Z - info: [ui] launching: 3.0.5 (Windows 10.0.22000)
+2022-07-18T12:06:07.432Z - info: [ui] execPath: 'C:\Users\emine\AppData\Local\GitHubDesktop\app-3.0.5\GitHubDesktop.exe'
+2022-07-18T12:06:07.714Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
+2022-07-18T12:06:27.581Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: git@github.com:presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T12:06:27.699Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- git@github.com:presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T12:06:29.477Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: git@github.com:presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T12:06:29.619Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- git@github.com:presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T12:06:30.346Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: git@github.com:presianrusinov/hello-html.git - presianrusinov (has token)
+2022-07-18T12:06:30.480Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- git@github.com:presianrusinov/hello-html.git C:\Users\GitHub projects\hello-html` exited with an unexpected code: 128.
+stderr:
+fatal: could not create work tree dir 'C:\Users\GitHub projects\hello-html': Permission denied
+
+(The error was parsed as 21: Permission denied.)
+2022-07-18T18:26:03.376Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-07-18T18:26:04.194Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-07-18T18:26:04.197Z - info: [ui] [AppStore] found account: presianrusinov (presianrusinov)
+2022-07-18T18:26:04.566Z - info: [ui] launching: 3.0.5 (Windows 10.0.22000)
+2022-07-18T18:26:04.583Z - info: [ui] execPath: 'C:\Users\emine\AppData\Local\GitHubDesktop\app-3.0.5\GitHubDesktop.exe'
+2022-07-18T18:26:04.968Z - info: [ui] Subscribed 'presianrusinov' to Alive channel
